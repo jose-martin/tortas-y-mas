@@ -11,8 +11,8 @@
 .nav-titulo {
     padding: 0;
     width: 100%;
-
     color: aliceblue;
+    margin-top: 1rem;
 }
 
 
@@ -70,4 +70,34 @@
 .carrusel img {
     width: 100%;
     height: 400px;
+}
+
+.contenedor-muestras {
+    display: flex;
+
+}
+
+.pastel {
+    width: 400px;
+    height: 400px;
+    padding: 2rem 2rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    background-color: grey;
+}
+
+.contenedor-bocaditos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    row-gap: 1rem;
+
+
+}
+
+.contenedor-bocaditos img {
+    width: 100px;
+    height: 100px;
 }
