@@ -22,43 +22,25 @@
 
 }
 
-.bocaditos {
+.petit {
     margin-top: 50px;
-    width: 100%;
-
-}
-
-.bocaditos-muestras {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
-    margin-left: 50px;
+    margin-left: 7rem;
+    gap: 6rem;
 
 }
 
-.bocaditos-muestras img {
-    width: 400px;
-    height: 300px;
-    padding: 10px 0;
-    border-radius: 5%;
-    margin-left: 50px;
-    margin-top: 15px;
 
+.petit img {
+    width: 250px;
+    height: 200px;
+    padding: 20px 20px;
+    border: solid 1px;
+    background-color: darkgrey;
 }
 
-.petit {
-    width: 500px;
-    height: 350px;
-    border-style: double;
-    background-color: burlywood;
-}
 
-.petit p {
-    margin-left: 50px;
-    font-size: 1.5rem;
-    margin-top: -10px;
-    font-weight: 400;
-}
 
 .carrusel {
     width: 100%;
@@ -74,23 +56,26 @@
 
 .contenedor-muestras {
     display: flex;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    gap: 2rem;
 
 }
 
 .pastel {
     width: 400px;
     height: 400px;
-    padding: 2rem 2rem;
+    padding: 20px 20px;
     margin-top: 4rem;
     margin-left: 2rem;
-    background-color: grey;
+
 }
 
 .contenedor-bocaditos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 6rem;
-    margin-left: 5rem;
+    gap: 4rem;
+    margin-left: 4rem;
     margin-top: 4rem;
     row-gap: 1rem;
 
@@ -98,6 +83,14 @@
 }
 
 .contenedor-bocaditos img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+.contenedor-bocaditos1 {
+    display: flex;
+    gap: 0.5rem;
+    width: 230px;
+    align-items: center;
+    padding: 10px 10px;
 }
