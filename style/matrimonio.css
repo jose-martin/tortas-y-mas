@@ -139,10 +139,10 @@
     width: 70px;
 }
 
-.boton input {
+.boton button {
 
     padding: 0.5rem 3rem;
     color: white;
     background-color: #e00000;
-    border-radius: 5%;
+
 }
