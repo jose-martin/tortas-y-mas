@@ -58,13 +58,14 @@
 
 }
 
-.container-nav a {
+.container-nav .boton-carrito {
     position: relative;
     width: 2rem;
     height: 2rem;
+    cursor: pointer;
 }
 
-.container-nav a .carrito-cantidad {
+.container-nav .boton-carrito .carrito-cantidad {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -77,7 +78,7 @@
     top: -25%;
 }
 
-.container-nav a .carrito-cantidad p {
+.container-nav .boton-carrito .carrito-cantidad p {
     font-size: 10px;
     line-height: 10px;
     margin: 0;
@@ -85,7 +86,7 @@
     color: white;
 }
 
-.container-nav a svg {
+.container-nav .boton-carrito svg {
     color: white;
     fill: white;
     width: 2rem;
@@ -190,4 +191,53 @@
     font-size: 1.5rem;
     text-align: center;
 
+}
+
+
+/** CARRITO **/
+.carrito {
+    background-color: white;
+    width: 300px;
+    max-width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    transition: all 0.5s ease-in-out;
+}
+
+.carrito-abierto {
+    max-width: 300px;
+}
+
+.carrito-header {
+    display: flex;
+    padding: 1rem 1rem;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.carrito-header .carrito-title {
+    font-weight: bold;
+}
+
+.carrito-header .cerrar-carrito {
+    cursor: pointer;
+}
+
+.carrito-body {
+    height: calc(100% - 112px);
+}
+
+.carrito-footer {
+    display: flex;
+    padding: 1rem 1rem;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
 }
